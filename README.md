@@ -1,0 +1,3 @@
+# Firebase Realtime Database Transaction Race Condition
+
+This repository demonstrates a common race condition that can occur when performing concurrent updates in Firebase's Realtime Database.  The problem arises when attempting to update multiple data points atomically without using transactions.  This can lead to inconsistent data and unexpected behavior.  The `bug.js` file shows the problematic code, while `bugSolution.js` presents the corrected version using transactions to ensure atomicity.
